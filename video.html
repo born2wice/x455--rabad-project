@@ -6,35 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" type="text/css" href="./assets/stylesheets/styles.css" />
-  <title>Video</title>
-  <style>
-    article {
-      width: 1200px;
-      padding: 20px 100px;
-    }
-
-    .accordion {
-      color: #00a2ff;
-      cursor: pointer;
-      font-size: 15px;
-      padding-bottom: 10px;
-    }
-
-    .active,
-    .accordion:hover {
-      color: #339999;
-    }
-
-    .panel {
-      display: none;
-      overflow: hidden;
-    }
-  </style>
+  <title>Video Gallery</title>
 </head>
 
 <body>
-  <header class="Video">
-    <a class="logo" href="index.html"><span>Video Gallery/span></a>
+  <header class="About">
+    <a class="logo" href="index.html"><span>About</span></a>
     <nav>
       <ul>
         <li class="active-page">
@@ -73,8 +50,11 @@
       </div>
     </nav>
   </header>
-  
-  <!--<article style="width: 70%; float: left;">-->
+
+
+  <article style="width: 70%; float: left;">
+    <div>
+       <!--<article style="width: 70%; float: left;">-->
   <article>
     <div>
       <h1>Video Gallery</h1>
@@ -85,11 +65,12 @@
 
   </section>
   <article>
-    <h3>Kahoy Kollection</h3>
+    <h3 id="Kahoy Kollection">Kahoy Kollection</h3>
     <div>
+        <h2>Kahoy Kollection at Thrive City Happy Hour</h2>
       <h4>Thrive City, Chase Center, San Francisco, CA</h4>
       <span style="width: 500px; word-wrap: break-word;">
-        <h2>Kahoy Kollection at Thrive City Happy Hour</h2>
+
         <iframe width="500" height="315" src="https://www.youtube.com/embed/RSPWdcLR2sw"
           title="Soul" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
         </iframe>
@@ -110,33 +91,15 @@
     </div>
   </article>
   <article>
-    <h3>Derby SF - Crimson Release</h3>
+    <h3 id="Derby of San Francisco">Derby of San Francisco</h3>
+
+
+
     <div>
+    <h2>Derby SF - Cream Release</h2>
       <h4>Derby of San Francisco - Haight Street SF</h4>
       <span style="width: 500px; word-wrap: break-word;">
-        <h2>Derby SF - Crimson Release</h2>
-        <iframe width="500" height="315" src="https://www.youtube.com/embed/Qf_ID6M1l8s"
-          title="Soul" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-        </iframe>
-      </span>
-      <p>
-        Derby SF "Crimson" Style #300 Release Date: Saturday, February, 20th 2021.
-      </p>
-      <div class="panel">
-        <p>
-          The iconic derby jacket produced in San Francisco and resurrected in 2012 by Victor Suarez.
-   
-         </p>
-      </div>
-      <div class="accordion" style="text-align: right;">More</div>
-    </div>
-  </article>
-  <article>
-    <h3>Derby SF - Cream Release</h3>
-    <div>
-      <h4>Derby of San Francisco - Haight Street SF</h4>
-      <span style="width: 500px; word-wrap: break-word;">
-        <h2>Derby SF - Cream Release</h2>
+        
         <iframe width="500" height="315" src="https://www.youtube.com/embed/QajjhnD3XHw"
           title="Soul" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
         </iframe>
@@ -160,11 +123,35 @@
     </div>
   </article>
   <article>
-    <h3>Soul Kandy Self Kare</h3>
+
     <div>
+        <h2>Derby SF - Crimson Release</h2>
+      <h4>Derby of San Francisco - Haight Street SF</h4>
+      <span style="width: 500px; word-wrap: break-word;">
+
+        <iframe width="500" height="315" src="https://www.youtube.com/embed/Qf_ID6M1l8s"
+          title="Soul" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+        </iframe>
+      </span>
+      <p>
+        Derby SF "Crimson" Style #300 Release Date: Saturday, February, 20th 2021.
+      </p>
+      <div class="panel">
+        <p>
+          The iconic derby jacket produced in San Francisco and resurrected in 2012 by Victor Suarez.
+   
+         </p>
+      </div>
+      <div class="accordion" style="text-align: right;">More</div>
+    </div>
+  </article>
+  <article>
+    <h3 id="Soul Kandy Self Kare">Soul Kandy Self Kare</h3>
+    <div>
+        <h2>Soul Kandy Self Kare: Love on Haight</h2>
       <h4>The Higher Consciousness - Haight Street SF</h4>
       <span style="width: 500px; word-wrap: break-word;">
-        <h2>Soul Kandy Self Kare</h2>
+
         <iframe width="500" height="315" src="https://www.youtube.com/embed/45bz2mUYllo"
           title="Soul" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
         </iframe>
@@ -185,6 +172,24 @@
       <div class="accordion" style="text-align: right;">More</div>
     </div>
   </article>
+
+      </p>
+    </div>
+  </article>
+  <section style="width: 30%; float: left; padding: 40px; position: sticky; top: 0px;">
+    <h3>Video Categories</h3>
+    <ol>
+      <li>
+        <a href="#Kahoy Kollection">Kahoy Kollection</a>
+      </li>
+      <li>
+        <a href="#Derby of San Francisco">Derby of San Francisco</a>
+      </li>
+      <li>
+        <a href="#Soul Kandy Self Kare">Soul Kandy Self Kare</a>
+      </li>
+    </ol>
+  </section>
   <div class="to-top"><a href="#">Top</a></div>
   <footer style="width: 100%;">
     <div class="social-icon">
@@ -204,20 +209,20 @@
   </footer>
 </body>
 <script>
-  var acc = document.getElementsByClassName("accordion");
-  var i;
-  for (i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function () {
-      this.classList.toggle("active");
-      var panel = this.previousElementSibling;
-      if (panel.style.display === "block") {
-        panel.style.display = "none";
-        this.innerHTML = "More";
-      } else {
-        panel.style.display = "block";
-        this.innerHTML = "Less";
-      }
-    });
-  }
-</script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var panel = this.previousElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+          this.innerHTML = "More";
+        } else {
+          panel.style.display = "block";
+          this.innerHTML = "Less";
+        }
+      });
+    }
+  </script>
 </html>

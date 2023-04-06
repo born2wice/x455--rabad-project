@@ -72,17 +72,17 @@ nav ul li a {
 
 /* styling hover nav item */
 nav ul li a:hover {
-  background-color: #339999;
+  background-color: #ae8d1e;
   text-decoration: none;
   color: #fff;
 }
 
 .active-page {
-  background-color: rgba(0, 102, 102, 0.8);
+  background-color: #ae8d1e;
 }
 
 .active-menu-item {
-  background-color: #339999;
+  background-color: #ae8d1e;
 }
 
 /* END styling navigation bar */
@@ -109,7 +109,7 @@ nav ul li a:hover {
   display: none; /* set display to none, so dropdown menu won't show till hover dropdown */
   position: absolute;
   right: 0;
-  background-color: rgba(0, 102, 102, 0.8);
+  background-color: rgba(176, 141, 13, 0.8);
   min-width: 280px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -125,7 +125,7 @@ nav ul li a:hover {
 }
 
 .dropdown-content a:hover {
-  background-color: #339999;
+  background-color: #ae8d1e;
 }
 
 .dropdown:hover .dropdown-content {
@@ -133,7 +133,7 @@ nav ul li a:hover {
 }
 
 .dropdown:hover {
-  background-color: rgba(0, 102, 102, 0.8);
+  background-color: #ae8d1e;
 }
 /********** END for dropdown menu in small screen **********/
 
@@ -153,7 +153,7 @@ nav ul li a:hover {
   
 }
 .hero-text {
-  color: #100e6b;
+  color: #ae8d1e;
   font-size: 4em;
   font-weight: bold;
   margin-top: 100px;
@@ -192,14 +192,14 @@ header.page-7 {
 /* BEG styling headings */
 h1 {
   margin: 0px 0px 1em 0px;
-  color: #076d6f;
+  color: #ae8d1e;
   font-size: 1.7em;
   font-weight: bold;
 }
 
 h3 {
   margin: 0px 0px 1.5em 0px;
-  color: #339999;
+  color: #ae8d1e;
   font-size: 1.1em;
   font-weight: normal;
   letter-spacing: 2px;
@@ -209,7 +209,7 @@ h3 {
 
 /* Styling anchor link (hyperlink) */
 a {
-  color: #00a2ff;
+  color: #4172a9;
   text-decoration: none;
 }
 
